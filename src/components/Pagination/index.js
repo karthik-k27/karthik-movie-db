@@ -7,9 +7,9 @@ const Pagination = ({page, totalPages, onChange}) => (
     >
       Prev
     </button>
-    <span>
-      Page {page} of {totalPages}
-    </span>
+
+    <p className="page-number">{page}</p>
+
     <button
       type="button"
       disabled={page >= totalPages}

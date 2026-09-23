@@ -1,133 +1,241 @@
 {
   "test_case_results": [
     {
-      "test_case_id": "RJSCPNLIOG_TEST_1",
+      "test_case_id": "RJSCPPPIOZ_TEST_1",
       "evaluation_result": "CORRECT",
       "title": "When the Page is opened, an HTTP GET request should be made to the given \"getPopularMoviesURL\" to get the list of all popular movies ",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_2",
+      "test_case_id": "RJSCPPPIOZ_TEST_2",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"movieDB\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_3",
+      "test_case_id": "RJSCPPPIOZ_TEST_3",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"Popular\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_4",
+      "test_case_id": "RJSCPPPIOZ_TEST_4",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"Top Rated\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_5",
+      "test_case_id": "RJSCPPPIOZ_TEST_5",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"Upcoming\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_6",
+      "test_case_id": "RJSCPPPIOZ_TEST_6",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML search input element",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_7",
+      "test_case_id": "RJSCPPPIOZ_TEST_7",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \"Search\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_8",
+      "test_case_id": "RJSCPPPIOZ_TEST_8",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML image element with src as the value of the key \"poster_path\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_9",
+      "test_case_id": "RJSCPPPIOZ_TEST_9",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML element with text content as \"title\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_10",
+      "test_case_id": "RJSCPPPIOZ_TEST_10",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML element with text content as value of the key \"vote_average\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_11",
+      "test_case_id": "RJSCPPPIOZ_TEST_11",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML button element with text content as \"View Details\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_13",
+      "test_case_id": "RJSCPPPIOZ_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML button element with text content as \"Prev\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML button element with text content as \"Next\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", then the page should consist of an HTML paragraph element with text content as \"1\" representing the page number",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", and the Next button is clicked, an HTTP GET request should be made with the next page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", and the Prev button is clicked when the page number is \"1\", an HTTP GET request should not be made",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Popular\", and the Prev button is clicked after clicking the Next button, an HTTP GET request should be made with the previous page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_19",
       "evaluation_result": "CORRECT",
       "title": "When the Page is opened, an HTTP GET request should be made to the given \"topRatedMoviesURL\" to get the list of all top rated movies",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_14",
+      "test_case_id": "RJSCPPPIOZ_TEST_20",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML image element with src as the value of the key \"poster_path\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_15",
+      "test_case_id": "RJSCPPPIOZ_TEST_21",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML element with text content as \"title\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_16",
+      "test_case_id": "RJSCPPPIOZ_TEST_22",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML element with text content as value of the key \"vote_average\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_17",
+      "test_case_id": "RJSCPPPIOZ_TEST_23",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML button element with text content as \"View Details\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_18",
+      "test_case_id": "RJSCPPPIOZ_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML button element with text content as \"Prev\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML button element with text content as \"Next\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", then the page should consist of an HTML paragraph element with text content as \"1\" representing the page number",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", and the Next button is clicked, an HTTP GET request should be made with the next page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", and the Prev button is clicked when the page number is \"1\", an HTTP GET request should not be made",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Top Rated\", and the Prev button is clicked after clicking the Next button, an HTTP GET request should be made with the previous page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_30",
       "evaluation_result": "CORRECT",
       "title": "When the Page is opened, an HTTP GET request should be made to the given \"upcomingMoviesURL\" to get the list of all upcoming movies",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_19",
+      "test_case_id": "RJSCPPPIOZ_TEST_31",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML image element with src as the value of the key \"poster_path\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_20",
+      "test_case_id": "RJSCPPPIOZ_TEST_32",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML element with text content as \"title\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_21",
+      "test_case_id": "RJSCPPPIOZ_TEST_33",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML element with text content as value of the key \"vote_average\" received from the response within \"results\" list",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_22",
+      "test_case_id": "RJSCPPPIOZ_TEST_34",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML button element with text content as \"View Details\"",
       "errorMessages": []
     },
     {
-      "test_case_id": "RJSCPNLIOG_TEST_12",
+      "test_case_id": "RJSCPPPIOZ_TEST_35",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML button element with text content as \"Prev\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_36",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML button element with text content as \"Next\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_37",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", then the page should consist of an HTML paragraph element with text content as \"1\" representing the page number",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", and the Next button is clicked, an HTTP GET request should be made with the next page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_39",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", and the Prev button is clicked when the page number is \"1\", an HTTP GET request should not be made",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_40",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active page is \"Upcoming\", and the Prev button is clicked after clicking the Next button, an HTTP GET request should be made with the previous page number as the value to query parameter \"page\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPPPIOZ_TEST_18",
       "evaluation_result": "CORRECT",
       "title": "When the HTTP GET request is successful and an input is given in Search bar and \"Search\" button is clicked, the page should display the movies fetched from the Search API",
       "errorMessages": []

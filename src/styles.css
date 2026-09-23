@@ -166,14 +166,6 @@ button:disabled {
   font-size: 14px;
 }
 
-.pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 32px;
-}
-
 .details {
   display: flex;
   flex-wrap: wrap;
@@ -233,4 +225,18 @@ dd {
 .nav-links h2 {
   margin: 0;
   font: inherit;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+.page-number {
+  margin: 0;
+  font-weight: 700;
+  min-width: 1.5em;
+  text-align: center;
 }
