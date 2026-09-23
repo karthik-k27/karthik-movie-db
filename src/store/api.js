@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_TMDB_API_KEY'
+const API_KEY = 'fd7c28184a6fc89487eb1547df823089'
 
 const BASE_URL = 'https://api.themoviedb.org/3'
 
